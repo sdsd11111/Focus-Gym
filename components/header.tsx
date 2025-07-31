@@ -51,8 +51,8 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="relative h-12 w-36">
               <Image
-                src="https://automatizotunegocio.net/leadergym/logo.jpg"
-                alt="LEADER⚡GYM"
+                src="/logo Focus Gym.jpg"
+                alt="Focus GYM"
                 fill
                 className="object-contain"
                 priority

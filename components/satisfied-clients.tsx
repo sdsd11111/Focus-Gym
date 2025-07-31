@@ -21,22 +21,22 @@ export function SatisfiedClients() {
     {
       name: "Carlos Mendoza",
       testimonial: "Gracias a Focus Gym logré transformar mi cuerpo en solo 6 meses. Los entrenadores son excelentes profesionales que realmente se preocupan por tu progreso.",
-      image: "/client-carlos.jpg",
+      image: "/images/Inicio/Carlos Mendoza.jpg",
     },
     {
       name: "María Fernández",
       testimonial: "Las clases de cardio dance son increíbles. He perdido 12kg y ganado mucha confianza en mí misma. ¡El mejor gimnasio de Loja!",
-      image: "/client-maria.jpg",
+      image: "/images/Inicio/María Fernández.jpg",
     },
     {
       name: "Juan Pérez",
       testimonial: "El ambiente en Focus Gym es inigualable. La combinación de entrenamiento personalizado y la atención al detalle hacen la diferencia.",
-      image: "/client-juan.jpg",
+      image: "/images/Inicio/Juan Pérez.jpg",
     },
     {
       name: "Lucía Sánchez",
       testimonial: "Los planes de nutrición personalizados cambiaron mi vida. En Focus Gym encontré el apoyo que necesitaba para alcanzar mis metas.",
-      image: "/client-lucia.jpg",
+      image: "/images/Inicio/Lucía Sánchez.jpg",
     },
   ]
 
@@ -74,26 +74,6 @@ export function SatisfiedClients() {
               </div>
             </div>
           ))}
-        </div>
-      </div>
-      
-      <div className="mt-16">
-        <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold mb-4 dark:text-white">Nuestros Aliados Estratégicos</h3>
-          <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-            Trabajamos con las mejores marcas para ofrecerte calidad y excelencia en tu experiencia fitness.
-          </p>
-          <div className="flex flex-wrap justify-center gap-8 items-center mt-6">
-            <div className="relative h-16 w-32">
-              <Image src="/logo-protein-plus.png" alt="Proteína Plus" fill className="object-contain" />
-            </div>
-            <div className="relative h-16 w-32">
-              <Image src="/logo-sportfit-wear.png" alt="SportFit Wear" fill className="object-contain" />
-            </div>
-            <div className="relative h-16 w-32">
-              <Image src="/logo-nutrivida.png" alt="NutriVida" fill className="object-contain" />
-            </div>
-          </div>
         </div>
       </div>
     </section>
