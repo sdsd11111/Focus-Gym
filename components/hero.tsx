@@ -3,12 +3,12 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="w-full pt-24 md:pt-32 lg:pt-40 pb-12">
-      <div className="container mx-auto px-4">
+    <section className="w-full min-h-[80vh] md:min-h-screen flex items-center">
+      <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:grid md:grid-cols-2 md:gap-16 items-center">
           {/* Imagen - Aparece primero en móvil */}
-          <div className="order-1 md:order-2 w-full mb-8 md:mb-0">
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
+          <div className="order-1 md:order-2 w-full h-full md:absolute md:right-0 md:top-0 md:w-1/2 md:h-full md:pl-8">
+            <div className="relative h-[300px] md:h-full w-full rounded-lg md:rounded-none overflow-hidden shadow-xl md:shadow-2xl">
               <Image
                 src="/images/Inicio/Hero.jpg"
                 alt="Entrenamiento en Focus Gym Loja"
@@ -22,13 +22,10 @@ export function Hero() {
           {/* Texto - Aparece segundo en móvil */}
           <div className="order-2 md:order-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight dark:text-white">
-              ¡Imagina Alcanzar Tu Máximo Potencial con <span className="text-lime-500">FOCUS GYM</span>!
+              ¡Alcanza tu maximo potencial con <span className="text-lime-500">FOCUS GYM</span>!
             </h1>
-            <p className="text-xl mb-8 text-gray-700 dark:text-gray-300">
-              Transforma tu cuerpo y mente en Loja. ¡Tu bienestar comienza hoy!
-            </p>
-            <p className="text-lg md:text-xl mb-4 text-gray-700 dark:text-gray-300">
-              💪 ¡El cambio que buscas está al alcance de tu mano!
+            <p className="hidden md:block text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300">
+              💪Transforma tu cuerpo y mente en Loja. ¡Tu bienestar comienza hoy!
             </p>
             <Link
               href="#contacto"
