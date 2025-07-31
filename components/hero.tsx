@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { HeroSlider } from "@/components/hero-slider"
 
 export function Hero() {
   return (
@@ -9,13 +9,7 @@ export function Hero() {
           {/* Imagen - Aparece primero en móvil */}
           <div className="order-1 md:order-2 w-full h-full md:absolute md:right-0 md:top-0 md:w-1/2 md:h-full md:pl-8">
             <div className="relative h-[50vh] md:h-full w-full rounded-lg md:rounded-none overflow-hidden shadow-xl md:shadow-2xl">
-              <Image
-                src="/images/Inicio/Hero.jpg"
-                alt="Entrenamiento en Focus Gym Loja"
-                fill
-                className="object-cover"
-                priority
-              />
+              <HeroSlider />
             </div>
           </div>
 
