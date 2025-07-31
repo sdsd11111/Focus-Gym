@@ -3,12 +3,12 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="w-full min-h-[80vh] md:min-h-screen flex items-center">
+    <section className="w-full min-h-screen flex items-center">
       <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:grid md:grid-cols-2 md:gap-16 items-center">
           {/* Imagen - Aparece primero en móvil */}
           <div className="order-1 md:order-2 w-full h-full md:absolute md:right-0 md:top-0 md:w-1/2 md:h-full md:pl-8">
-            <div className="relative h-[300px] md:h-full w-full rounded-lg md:rounded-none overflow-hidden shadow-xl md:shadow-2xl">
+            <div className="relative h-[50vh] md:h-full w-full rounded-lg md:rounded-none overflow-hidden shadow-xl md:shadow-2xl">
               <Image
                 src="/images/Inicio/Hero.jpg"
                 alt="Entrenamiento en Focus Gym Loja"
