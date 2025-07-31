@@ -23,9 +23,9 @@ export default function HorariosPage() {
   return (
     <main className="flex min-h-screen flex-col items-center pt-24">
       <section className="w-full max-w-7xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-center mb-8">🕒 Nuestros Horarios</h1>
+        <h1 className="text-4xl font-bold text-center mb-8">⏰ Nuestros Horarios de Focus Gym</h1>
         <p className="text-center text-lg mb-12 max-w-3xl mx-auto">
-          Entrena a la hora que mejor te convenga con nuestros horarios flexibles.
+          En Focus Gym de Loja, entrena a la hora que mejor se adapte a tu rutina con nuestros horarios amplios y flexibles.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -87,8 +87,7 @@ export default function HorariosPage() {
         <div className="bg-lime-50 border border-lime-200 rounded-lg p-6 text-center">
           <h3 className="text-xl font-bold mb-2 text-gray-800">📌 Información Importante</h3>
           <p className="mb-4 text-gray-700">
-            Los horarios pueden estar sujetos a cambios en días festivos. Consulta nuestras redes sociales para
-            actualizaciones.
+            Los horarios pueden variar en días festivos o por eventos especiales. Te invitamos a consultar nuestras redes sociales para las últimas actualizaciones.
           </p>
           <button className="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-6 rounded-full transition duration-300 inline-flex items-center">
             <svg
@@ -102,7 +101,7 @@ export default function HorariosPage() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
               />
             </svg>
             Descargar Horario Completo

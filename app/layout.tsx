@@ -10,10 +10,10 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LEADER⚡GYM - Figura Extrema",
+  title: "Focus GYM",
   description:
-    "Descubre cómo transformar tu vida en LEADER⚡GYM, el mejor gimnasio en Loja. ¡Entrenamiento personalizado, clases dinámicas y más!",
-    generator: 'v0.dev'
+    "Focus GYM - Tu gimnasio de confianza en Loja. Entrenamiento personalizado, clases dinámicas y resultados reales. ¡Comienza tu transformación hoy!",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({

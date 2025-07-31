@@ -4,16 +4,16 @@ import Link from "next/link"
 export function Portfolio() {
   const projects = [
     {
-      category: "Transformaciones",
-      title: "Transformación de Carlos",
-      link: "#",
-      image: "https://automatizotunegocio.net/leadergym/4.jpg",
+      category: "Transformación",
+      title: "De principiante a competidor en 6 meses",
+      link: "#transformacion-mateo",
+      image: "/images/Inicio/De principiante a competidor en 6 meses.jpg",
     },
     {
-      category: "Testimonios",
-      title: "El viaje de Mariana",
-      link: "#",
-      image: "https://automatizotunegocio.net/leadergym/5.jpg",
+      category: "Historia de Éxito",
+      title: "El viaje de Sofía: Transformación física y mental",
+      link: "#historia-sofia",
+      image: "/images/Inicio/El viaje de Sofía Transformación física y mental.jpg",
     },
   ]
 
@@ -21,9 +21,9 @@ export function Portfolio() {
     <section className="w-full py-16 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">📂 Portafolio de Éxitos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">✨ Portafolio de Éxitos</h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Mira nuestros proyectos de transformación física y mejora personal.
+            Transformaciones Reales, Resultados Comprobados en Focus Gym Loja
           </p>
         </div>
 

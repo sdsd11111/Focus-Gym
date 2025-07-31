@@ -10,8 +10,8 @@ export function Hero() {
           <div className="order-1 md:order-2 w-full mb-8 md:mb-0">
             <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://automatizotunegocio.net/leadergym/4.jpg"
-                alt="Entrenamiento en LEADER⚡GYM"
+                src="/images/Inicio/Hero.jpg"
+                alt="Entrenamiento en Focus Gym Loja"
                 fill
                 className="object-cover"
                 priority
@@ -21,23 +21,20 @@ export function Hero() {
 
           {/* Texto - Aparece segundo en móvil */}
           <div className="order-2 md:order-1 text-center md:text-left">
-            <p className="text-lg md:text-xl mb-4 text-gray-700 dark:text-gray-300">
-              💪 ¡Imagina alcanzar tu máximo potencial!
-            </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight dark:text-white">
-              🏋️‍♂️ LEADER⚡GYM <span className="block text-2xl md:text-3xl mt-2 text-lime-500">Figura Extrema</span>
+              ¡Imagina Alcanzar Tu Máximo Potencial con <span className="text-lime-500">FOCUS GYM</span>!
             </h1>
             <p className="text-xl mb-8 text-gray-700 dark:text-gray-300">
-              Te ayudaremos a transformar tu cuerpo y mente.
+              Transforma tu cuerpo y mente en Loja. ¡Tu bienestar comienza hoy!
             </p>
-            <h3 className="text-xl md:text-2xl font-semibold mb-8 text-yellow-400">⚠️ ¡El mañana es hoy!</h3>
+            <p className="text-lg md:text-xl mb-4 text-gray-700 dark:text-gray-300">
+              💪 ¡El cambio que buscas está al alcance de tu mano!
+            </p>
             <Link
-              href="https://wa.me/593990039794"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contacto"
               className="inline-block bg-lime-500 hover:bg-lime-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
             >
-              🚀 ¡Quiero reservar ahora!
+              ¡Reserva tu Clase Gratis Ahora! ✨
             </Link>
           </div>
         </div>

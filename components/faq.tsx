@@ -41,19 +41,34 @@ function FaqItem({ question, answer }: FaqItemProps) {
 export function Faq() {
   const faqs = [
     {
-      question: "¿Qué servicios ofrece LEADER⚡GYM?",
+      question: "¿Qué servicios ofrece FOCUS GYM?",
       answer:
-        "En LEADER⚡GYM ofrecemos una amplia gama de servicios que incluyen entrenamiento personalizado, clases de cardio dance, planes de suplementación y venta de ropa deportiva.",
+        "En FOCUS GYM ofrecemos entrenamiento personalizado, asesoría nutricional, planes de acondicionamiento físico, clases grupales y programas de transformación corporal. Nuestro enfoque es integral para garantizar los mejores resultados.",
     },
     {
-      question: "¿Cómo puedo agendar una cita en LEADER⚡GYM?",
+      question: "¿Cómo puedo agendar una clase de prueba?",
       answer:
-        "Puedes agendar una cita fácilmente a través de nuestro WhatsApp o utilizando el botón de 'Clase Gratis' en nuestra página web.",
+        "Puedes agendar tu clase de prueba gratuita a través de nuestro WhatsApp o visitándonos en nuestro local. Te recomendamos llegar 15 minutos antes para realizar tu evaluación inicial.",
     },
     {
-      question: "¿Qué experiencia tiene LEADER⚡GYM?",
+      question: "¿Qué necesito para comenzar?",
       answer:
-        "Contamos con más de 5 años de experiencia transformando vidas en Loja. Nuestro gimnasio se distingue por la calidad de nuestros servicios y el uso de equipamiento moderno.",
+        "Solo necesitas ropa deportiva cómoda, una toalla y mucha actitud. Nosotros nos encargamos de diseñar un plan personalizado según tus objetivos y condición física actual.",
+    },
+    {
+      question: "¿Tienen estacionamiento?",
+      answer:
+        "Sí, contamos con estacionamiento privado para nuestros miembros. Pregunta por las opciones disponibles al momento de tu inscripción.",
+    },
+    {
+      question: "¿Ofrecen planes nutricionales?",
+      answer:
+        "¡Claro que sí! Nuestros planes nutricionales son personalizados y están incluidos en tu membresía. Trabajamos con nutricionistas certificados para asegurar los mejores resultados.",
+    },
+    {
+      question: "¿Qué métodos de pago aceptan?",
+      answer:
+        "Aceptamos efectivo, transferencias bancarias y todas las tarjetas de crédito y débito. También ofrecemos planes de financiamiento sin intereses.",
     },
   ]
 

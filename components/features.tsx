@@ -19,33 +19,33 @@ export function Features() {
   const features = [
     {
       icon: "🏆",
-      title: "Resultados visibles",
-      description: "Con entrenamiento continuo, notarás cambios drásticos.",
+      title: "Resultados Comprobados",
+      description: "Con un plan de entrenamiento constante, verás cambios significativos y duraderos.",
     },
     {
-      icon: "🏋️‍♀️",
-      title: "Asesoramiento profesional",
-      description: "Entrenadores capacitados para guiarte en cada paso.",
+      icon: "👨‍🏫",
+      title: "Asesoramiento de Expertos",
+      description: "Entrenadores certificados y dedicados te guiarán en cada etapa de tu progreso.",
     },
     {
-      icon: "🕒",
-      title: "Horarios flexibles",
-      description: "Entrena a la hora que mejor te convenga.",
+      icon: "⏰",
+      title: "Horarios a tu Medida",
+      description: "Entrena cuando mejor te convenga con nuestras amplias opciones de horarios.",
     },
     {
-      icon: "🎉",
-      title: "Comunidad acogedora",
-      description: "Forma parte de un grupo que te apoyará en tu camino.",
+      icon: "🤝",
+      title: "Comunidad y Apoyo",
+      description: "Únete a un grupo que te inspirará y te motivará en tu camino hacia el bienestar.",
     },
     {
-      icon: "💯",
-      title: "Equipamiento de calidad",
-      description: "Máquinas modernas para un entrenamiento efectivo.",
+      icon: "🏋️",
+      title: "Instalaciones de Primer Nivel",
+      description: "Máquinas modernas y seguras para un entrenamiento eficaz y completo.",
     },
     {
-      icon: "🥇",
-      title: "Programas personalizados",
-      description: "Rutinas adaptadas a tus objetivos específicos.",
+      icon: "🎯",
+      title: "Entrenamientos Personalizados",
+      description: "Rutinas diseñadas específicamente para tus objetivos y nivel de fitness.",
     },
   ]
 
@@ -53,9 +53,9 @@ export function Features() {
     <section className="w-full py-16 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">🤔 ¿Estás listo para el cambio?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">💪 ¿Estás listo para transformar tu vida?</h2>
           <h3 className="text-xl md:text-2xl font-semibold mb-8 dark:text-gray-200">
-            ¿Cuáles son tus verdaderas metas de fitness?
+            En Focus Gym Loja, no solo entrenas, evolucionas
           </h3>
         </div>
 
@@ -77,9 +77,9 @@ export function Features() {
 
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-            Descuidar estos aspectos puede significar perder la motivación y los resultados deseados.
+            No dejes que la falta de guía detenga tu progreso. ¡Nosotros estamos aquí para ti!
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">😊 TRANQUILO, ESTO LO HACEMOS POR TI</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">✨ Tu transformación comienza hoy en Focus Gym Loja</h2>
         </div>
       </div>
     </section>

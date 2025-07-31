@@ -4,34 +4,34 @@ import Link from "next/link"
 export function Timeline() {
   const timelineEvents = [
     {
-      year: "2018",
-      title: "Apertura de LEADER⚡GYM",
-      description: "Iniciamos nuestra misión de transformar vidas a través del fitness.",
-    },
-    {
-      year: "2020",
-      title: "Expansión de Servicios",
-      description: "Incorporamos clases de cardio dance y suplementos.",
-    },
-    {
       year: "2022",
-      title: "Colaboración con Spa",
-      description: "Creamos un enfoque integral en el bienestar.",
+      title: "Apertura de Focus Gym",
+      description: "Iniciamos nuestra misión de transformar vidas a través del fitness en Loja.",
+    },
+    {
+      year: "2023",
+      title: "Expansión de Servicios",
+      description: "Incorporamos clases de cardio y yoga, ampliando nuestras opciones de entrenamiento.",
+    },
+    {
+      year: "2024",
+      title: "Integración Nutricional",
+      description: "Creamos un enfoque más integral, añadiendo asesorías de nutrición personalizada.",
     },
   ]
 
   const partners = [
     {
-      name: "Marca A",
-      logo: "https://i.pinimg.com/736x/fd/8c/51/fd8c5198bcfa23a87fe0b91bc8651b97.jpg",
+      name: "Proteína Plus",
+      logo: "/partner-protein.jpg",
     },
     {
-      name: "Marca B",
-      logo: "https://i.pinimg.com/736x/f4/ce/62/f4ce62fba5b0739ae3652ac228520d62.jpg",
+      name: "SportFit Wear",
+      logo: "/partner-sportswear.jpg",
     },
     {
-      name: "Marca C",
-      logo: "https://i.pinimg.com/736x/dd/8f/48/dd8f4819a81059f456cc2ec32ec36859.jpg",
+      name: "NutriVida",
+      logo: "/partner-nutrition.jpg",
     },
   ]
 
@@ -41,7 +41,7 @@ export function Timeline() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">🏆 Experiencia y Trayectoria</h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Más de 5 años comprometidos con el bienestar de nuestros miembros.
+            Más de 3 años comprometidos con el bienestar de nuestros miembros en Loja.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export function Timeline() {
         </div>
 
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">Nuestros Colaboradores</h3>
+          <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">Nuestros Aliados Estratégicos</h3>
           <div className="flex flex-wrap justify-center gap-8">
             {partners.map((partner, index) => (
               <div
@@ -92,12 +92,10 @@ export function Timeline() {
 
         <div className="text-center">
           <Link
-            href="https://wa.me/593990039794"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contacto"
             className="inline-block bg-lime-500 hover:bg-lime-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors"
           >
-            🔥 ¡Únete a la familia LEADER⚡GYM!
+            ✨ ¡Únete a la familia FOCUS GYM!
           </Link>
         </div>
       </div>

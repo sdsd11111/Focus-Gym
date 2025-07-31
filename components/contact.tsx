@@ -31,40 +31,40 @@ export function Contact() {
   }
 
   return (
-    <section className="w-full py-16 bg-gray-50 dark:bg-gray-800">
+    <section id="contacto" className="w-full py-16 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">📍 Ubicación y Contacto</h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Visítanos en el corazón de Loja y comienza tu transformación hoy.
+            Visítanos en el corazón de Loja y comienza tu transformación hoy. Estamos ubicados en una zona céntrica y de fácil acceso.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2064455099785!2d-79.20662492412567!3d-3.9967534962537383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cb480661b91d2d%3A0x8e12137cdc5bc5c5!2sLoja%2C%20Ecuador!5e0!3m2!1sen!2sus!4v1648141114388!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.1234567890123!2d-79.21000000000001!3d-4.000000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMDAnMDAuMCJTIDc5wrAxMiczNi4wIlc!5e0!3m2!1sen!2sec!4v1234567890123!5m2!1sen!2sec"
               width="100%"
-              height="300"
+              height="350"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de LEADER⚡GYM"
+              title="Ubicación de FOCUS GYM en Loja"
             ></iframe>
           </div>
 
           <div className="grid gap-6">
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <div className="text-3xl text-lime-500 mr-4">📌</div>
+                <div className="text-3xl text-lime-500 mr-4">📍</div>
                 <div>
                   <h3 className="text-xl font-bold mb-1 dark:text-white">Ubicación</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Lourdes entre Bolívar y Sucre, Loja, Ecuador</p>
+                  <p className="text-gray-600 dark:text-gray-300">Av. Pío Jaramillo y Venezuela, Edificio Focus, Loja, Ecuador</p>
                 </div>
               </div>
               <a
-                href="https://maps.app.goo.gl/dkBSMW9gRWb6hMDu7"
+                href="https://maps.app.goo.gl/example123"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-white font-medium py-2 px-4 rounded transition-colors flex items-center justify-center"
@@ -89,9 +89,31 @@ export function Contact() {
 
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <div className="text-3xl text-lime-500 mr-4">📱</div>
+                <div className="text-3xl text-lime-500 mr-4">💬</div>
                 <div>
                   <h3 className="text-xl font-bold mb-1 dark:text-white">WhatsApp</h3>
+                  <p className="text-gray-600 dark:text-gray-300">Escríbenos para información sobre membresías y horarios.</p>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/593991234567"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-600 dark:hover:bg-gray-500 text-gray-800 dark:text-white font-medium py-2 px-4 rounded transition-colors flex items-center justify-center"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.498 14.382l-.002-.001h-.002c-1.57 1.52-3.757 2.097-4.925 2.097-.34 0-.57-.038-.78-.077-.13-.024-.25-.047-.36-.047-.33 0-.53.2-.97.62l-.14.14c-.39.39-.76.57-1.17.57-.18 0-.43-.03-.71-.16-.68-.3-1.72-1.1-2.67-2.43-.43-.6-.81-1.33-1.11-2.06-.11-.25-.17-.48-.17-.7 0-.41.18-.78.57-1.17l.14-.14c.18-.18.27-.39.27-.6 0-.12-.01-.23-.03-.34-.05-.2-.09-.4-.09-.58 0-.33.1-.66.29-.96.32-.49.8-.96 1.44-1.41.5-.35 1.07-.59 1.62-.59.16 0 .32.03.46.08.24.09.45.22.6.39.16.17.25.35.25.52 0 .07-.01.14-.03.2-.03.11-.07.23-.1.34-.1.3-.24.72-.24 1.15 0 .24.03.46.1.66.03.08.06.16.1.24.1.23.21.46.36.68.15.22.3.4.46.56.16.16.3.3.46.43.16.13.33.26.5.39.17.13.36.25.55.38.19.13.39.25.59.36.2.11.42.22.65.32.23.1.45.18.67.25.22.07.44.11.65.11.43 0 .85-.14 1.16-.25.1-.03.19-.06.27-.08.07-.02.14-.03.2-.03.17 0 .37.1.56.27.19.18.38.4.53.6.15.2.3.42.43.6.13.19.25.37.35.53.1.16.19.3.26.4.07.1.13.18.17.23.05.06.08.1.1.12.02.02.03.03.04.03l.01.01c.02.02.03.03.03.04.02.02.03.05.03.09 0 .07-.02.15-.05.25-.04.1-.1.23-.18.36-.08.13-.18.28-.29.44-.11.16-.23.33-.36.49-.13.16-.26.32-.39.48z" />
+                  <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10c-1.701 0-3.33-.425-4.803-1.217l-5.197 1.5 1.5-5.197c-.792-1.473-1.217-3.102-1.217-4.803 0-5.514 4.486-10 10-10zm0 18c4.411 0 8-3.589 8-8s-3.589-8-8-8-8 3.589-8 8c0 1.473.4 2.873 1.142 4.1l-.8 2.8 2.8-.8c1.227.742 2.627 1.142 4.1 1.142z" />
+                </svg>
+                Enviar mensaje por WhatsApp
+              </a>
+            </div>
+
+            <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+              <div className="flex items-center mb-4">
+                <div className="text-3xl text-lime-500 mr-4">📱</div>
+                <div>
+                  <h3 className="text-xl font-bold mb-1 dark:text-white">Teléfono</h3>
                   <p className="text-gray-600 dark:text-gray-300">Contáctanos directamente para más información.</p>
                 </div>
               </div>
