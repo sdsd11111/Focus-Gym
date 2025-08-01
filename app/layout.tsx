@@ -22,19 +22,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
-          <div className="dark">
-            <Header />
-            {children}
-            <Footer />
-            <PopupManager />
-          </div>
+          <Header />
+          {children}
+          <Footer />
+          <PopupManager />
         </ThemeProvider>
       </body>
     </html>

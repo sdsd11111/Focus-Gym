@@ -81,7 +81,29 @@ export function Services() {
             ¿Cuáles son tus verdaderas metas de fitness? En Focus Gym te guiamos hacia ellas.
           </p>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {/* Mobile Slider */}
+          <div className="md:hidden overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory">
+            <div className="flex space-x-4 w-max">
+              {[
+                { title: "Resultados Visibles", description: "Con entrenamiento constante y nuestra guía, notarás cambios drásticos en tu cuerpo y bienestar." },
+                { title: "Asesoramiento Profesional", description: "Entrenadores capacitados y dedicados te brindan el apoyo necesario en cada paso de tu rutina." },
+                { title: "Horarios Flexibles", description: "Entrena a la hora que mejor te convenga, adaptándonos a tu ritmo de vida." },
+                { title: "Comunidad Acogedora", description: "Forma parte de un grupo que te apoyará y motivará en tu camino hacia la mejor versión de ti." },
+                { title: "Equipamiento de Calidad", description: "Máquinas modernas y seguras garantizan un entrenamiento efectivo y seguro en nuestras instalaciones." },
+                { title: "Programas Personalizados", description: "Rutinas diseñadas específicamente para ti, adaptadas a tus objetivos de fitness individuales." },
+              ].map((item, index) => (
+                <div key={index} className="w-[85vw] flex-shrink-0 snap-center">
+                  <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md h-full">
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">{item.title}</h3>
+                    <p className="text-gray-600 dark:text-gray-300">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* Desktop Grid */}
+          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {[
               { title: "Resultados Visibles", description: "Con entrenamiento constante y nuestra guía, notarás cambios drásticos en tu cuerpo y bienestar." },
               { title: "Asesoramiento Profesional", description: "Entrenadores capacitados y dedicados te brindan el apoyo necesario en cada paso de tu rutina." },
