@@ -18,23 +18,32 @@ export default function LayoutClient({
   const [isMounted, setIsMounted] = useState(false);
   const [showSplash, setShowSplash] = useState(true);
 
-  // Handle splash screen and initial routing
+  // Manejar el splash screen y el enrutamiento inicial
   useEffect(() => {
     setIsMounted(true);
     
-    // Solo mostrar splash en la carga inicial del sitio, no al recargar
-    const isInitialLoad = !sessionStorage.getItem('hasLoadedBefore');
-    sessionStorage.setItem('hasLoadedBefore', 'true');
+    // Verificar si es la primera visita
+    const isFirstVisit = !sessionStorage.getItem('hasVisited');
     
-    // No mostrar splash si no es la carga inicial
-    if (!isInitialLoad) {
+    // Verificar si es una recarga
+    const navEntries = performance.getEntriesByType('navigation');
+    const isReload = navEntries.length > 0 && 
+                    'type' in navEntries[0] && 
+                    (navEntries[0] as PerformanceNavigationTiming).type === 'reload';
+    
+    // Mostrar splash solo si es la primera visita o si estamos en la ruta raíz
+    if (isFirstVisit) {
+      sessionStorage.setItem('hasVisited', 'true');
+      setShowSplash(true);
+      if (pathname === '/') {
+        router.push('/home');
+      }
+    } else if (pathname === '/') {
+      // Si no es la primera visita pero estamos en la raíz, mostrar splash
+      setShowSplash(true);
+    } else {
+      // Si estamos en cualquier otra ruta, no mostrar splash
       setShowSplash(false);
-      return;
-    }
-    
-    // Si es la carga inicial, redirigir a /home si no está ya ahí
-    if (pathname === '/') {
-      router.push('/home');
     }
   }, [pathname]);
 
