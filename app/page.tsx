@@ -1,26 +1,7 @@
-import { Hero } from "@/components/hero"
-import { Testimonials } from "@/components/testimonials"
-import { Features } from "@/components/features"
-import { Services } from "@/components/services"
-import { Portfolio } from "@/components/portfolio"
-import { SatisfiedClients } from "@/components/satisfied-clients"
-import { Contact } from "@/components/contact"
-import { Faq } from "@/components/faq"
-import { VideoSection } from "@/components/video-section"
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center">
-      <Hero />
-      <Testimonials />
-      <VideoSection />
-      <Features />
-      <Services />
-      <Portfolio />
-      <SatisfiedClients />
-      <Contact />
-      <Faq />
-    </main>
-  )
+  // This page will be shown briefly until the client-side navigation kicks in
+  return null;
 }
 
