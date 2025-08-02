@@ -1,3 +1,4 @@
+import { VideoHero } from "@/components/video-hero"
 import { Hero } from "@/components/hero"
 import { Testimonials } from "@/components/testimonials"
 import { Features } from "@/components/features"
@@ -6,14 +7,22 @@ import { Portfolio } from "@/components/portfolio"
 import { SatisfiedClients } from "@/components/satisfied-clients"
 import { Contact } from "@/components/contact"
 import { Faq } from "@/components/faq"
-import { VideoSection } from "@/components/video-section"
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col">
-      <Hero />
+    <main className="flex flex-col">
+      {/* Nuevo Hero con video a pantalla completa */}
+      <VideoHero />
+      
+      {/* Contenido original del Hero (ahora ocupa toda la pantalla) */}
+      <section className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900">
+        <div className="w-full">
+          <Hero />
+        </div>
+      </section>
+      
+      {/* Resto de secciones */}
       <Testimonials />
-      <VideoSection />
       <Features />
       <Services />
       <Portfolio />
